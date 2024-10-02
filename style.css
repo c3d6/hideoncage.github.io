@@ -1,0 +1,17 @@
+.header{
+    user-select: none;
+    width: 100%;
+    background: linear-gradient(45deg,#a71333,#ac1231,crimson,crimson,#ac1231,#a71333);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 1);
+    padding: 10px 10px;
+    z-index: 998;
+    top: 0;
+    position: fixed;
+}
+.head_title{
+    position:relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
